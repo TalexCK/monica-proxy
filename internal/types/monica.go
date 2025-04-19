@@ -220,6 +220,19 @@ var modelToBotMap = map[string]string{
 	"sonar-reasoning-pro": "sonar_reasoning_pro",
 
 	"grok-3-beta": "grok_3_beta",
+
+
+
+
+	
+	"claude-3-haiku":"claude_3_haiku",
+	"gemini-2.5-flash":"gemini_2_5_flash",
+	"llama-3.3-70b":"llama_3_3_70b",
+	"gpt-3.5":"gpt_3_chat",
+	"llama-3-8b":"llama_3_8b",
+	"qwen-2.5-72b":"qwen_2_5_72b",
+	"mistral-7b":"mistral_7b",
+	"gemini-2.0-flash-think":"gemini_2_0_flash_think",
 }
 
 func modelToBot(model string) string {
